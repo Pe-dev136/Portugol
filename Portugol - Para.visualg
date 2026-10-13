@@ -1,0 +1,13 @@
+algoritmo "Contagem Simples"
+
+var
+  i: inteiro
+
+inicio
+
+  escreval("Iniciando as aulas")
+  para i de 1 ate 5 faca
+  escreval("Completou a volta número: " , i)
+  fimpara
+
+fimalgoritmo

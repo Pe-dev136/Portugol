@@ -1,0 +1,17 @@
+algoritmo "Operadores Lógicos"
+
+var
+   Nivel: inteiro
+   NivelNecessarioP1: inteiro
+   NivelNecessarioP2: inteiro
+
+inicio
+   Nivel <- 10
+   NivelNecessarioP1 <- 20
+   NivelNecessarioP2 <- 40
+
+   escreval("É maior que os dois níveis? ", (Nivel >= NivelNecessarioP1) E (Nivel >= NivelNecessarioP2))
+   escreval("É maior que um dos níveis? ", (Nivel >= NivelNecessarioP1) OU (Nivel >= NivelNecessarioP2))
+   escreval("Não é menor ou igual aos dois níveis? ", NAO (Nivel <= NivelNecessarioP1 E Nivel <= NivelNecessarioP2))
+
+fimalgoritmo

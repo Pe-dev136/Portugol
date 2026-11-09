@@ -1,0 +1,13 @@
+algoritmo "Funções de Formatação Númerica"
+
+var
+    numero: real
+
+inicio
+    numero <- 7.333333
+
+    escreval("Número com 8 posições: ", numero:8)
+    escreval("Número com 8 posições e 2 casas decimais: ", numero:8:2)
+    escreval("Número com 2 casas decimais: ", numero:0:2)
+
+fimalgoritmo
